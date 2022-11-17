@@ -6,11 +6,15 @@ using System.Threading.Tasks;
 
 namespace Coop_task
 {
-    internal class Program
+    public class Var_Sum
     {
-        static void Main(string[] args)
-        {
+        float zemesPlotas;
+        float zemesTuris;
+        float izambine;
+        float suma;
+        float vidurkis;
 
-        }
+
+
     }
 }
