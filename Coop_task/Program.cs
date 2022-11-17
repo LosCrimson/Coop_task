@@ -10,7 +10,11 @@ namespace Coop_task
     {
         static void Main(string[] args)
         {
-
+            Var_Sum TeamDream = new Var_Sum();
+            TeamDream.CountEarthArea();
+           
+            TeamDream.Task2();
+            
         }
     }
 }
