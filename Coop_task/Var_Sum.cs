@@ -14,7 +14,12 @@ namespace Coop_task
         float suma;
         float vidurkis;
 
+        public void CountEarthArea () 
+        {
+            float radius = 6371;
 
+            this.zemesPlotas = 4*(float)Math.PI*(float)Math.Pow(radius, 2.0);
+        }
 
     }
 }
